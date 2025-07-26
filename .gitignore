@@ -1,3 +1,5 @@
+/notes
+
 # Logs
 logs
 *.log
@@ -28,3 +30,7 @@ coverage
 *.sw?
 
 *.tsbuildinfo
+
+.vite/deps
+.vite/*
+.vite/deps/_metadata.json
