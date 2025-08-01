@@ -1,3 +1,5 @@
+
+
 <script>
 
 </script>
@@ -9,15 +11,19 @@
     </nav>
 </template>
 
-<style>
+<style scoped>
     nav {
-        background-color: aliceblue;
+        background-color: midnightblue;
         list-style: none;
         display: flex;
+        /* line-height: 2; */
+        padding-block: .5rem;
+        gap: .5rem;
+        border-left: 2px solid teal;
     }
 
     a {
-        color: green;
+        color: thistle;
         text-decoration: none;
     }
 </style>

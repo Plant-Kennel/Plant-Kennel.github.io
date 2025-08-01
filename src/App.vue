@@ -1,18 +1,18 @@
 <script setup>
 import HelloWorld from './components/HelloWorld.vue'
 import TheWelcome from './components/TheWelcome.vue'
-import NAV from "./components/Nav.vue";
+import Nav from "./components/Nav.vue";
 </script>
 
 <template>
   <header>
 
     <div class="wrapper">
-      <HelloWorld msg="You did it!" />
+      <HelloWorld msg="Plant Kennel" />
     </div>
   </header>
 
-  <NAV/>
+  <Nav/>
   <main>
     <TheWelcome />
   </main>

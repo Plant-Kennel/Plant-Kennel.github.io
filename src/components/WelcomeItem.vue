@@ -1,3 +1,5 @@
+import DocumentationIcon from
+
 <template>
   <div class="item">
     <i>
