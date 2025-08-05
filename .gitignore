@@ -35,3 +35,6 @@ coverage
 .vite/deps
 .vite/*
 .vite/deps/_metadata.json
+
+_week5_to_do.md
+/screenshots

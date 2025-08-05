@@ -4,5 +4,10 @@
   /* max-width: 1280px; --neat idea? */ 
   margin: 0;
   font-weight: normal;
+  border-left: 2px solid teal;
 }
 
+main {
+  /* border-left: 2px solid teal; */
+  flex: 1;
+}

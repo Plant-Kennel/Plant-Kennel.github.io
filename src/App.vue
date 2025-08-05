@@ -21,6 +21,7 @@ import Nav from "./components/Nav.vue";
 <style scoped>
 header {
   line-height: 1.5;
+  border-left: 2px solid teal;
 }
 
 .logo {

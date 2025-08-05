@@ -8,6 +8,7 @@
     <nav>
         <a href="home">Home</a>
         <a href="about">About</a>
+        <a href="CSSColors">CSSColors</a>
     </nav>
 </template>
 

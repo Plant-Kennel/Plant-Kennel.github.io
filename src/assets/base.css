@@ -1,6 +1,7 @@
 :root {
   background-color: floralwhite;
   color: teal;
+  
 }
 
 *,
@@ -15,4 +16,6 @@
 body {
   min-height: 100vh;
   font-size: 15px;
+  border-left: 2px solid teal;
+  display: flex;
 }
