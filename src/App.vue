@@ -1,14 +1,13 @@
 <script setup>
-import HelloWorld from './components/Heading.vue'
+import { RouterView } from 'vue-router';
 import TheWelcome from './components/TheWelcome.vue'
 import Nav from "./components/Nav.vue";
-import { RouterView } from 'vue-router';
 import HomeView from './components/HomeView.vue';
-import Header from './components/Heading.vue';
+import Heading from './components/Heading.vue';
 </script>
 
 <template>
-  <Header />
+  <Heading msg="Plant Kennel"/>
   <Nav />
   <main>
     <RouterView />
