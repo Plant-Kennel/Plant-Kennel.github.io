@@ -14,7 +14,4 @@ import DocumentationIcon from
   </div>
 </template>
 
-<style scoped>
 
-
-</style>
