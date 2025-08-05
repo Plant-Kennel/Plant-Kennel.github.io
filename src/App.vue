@@ -1,19 +1,18 @@
 <script setup>
-import HelloWorld from './components/HelloWorld.vue'
+import HelloWorld from './components/Heading.vue'
 import TheWelcome from './components/TheWelcome.vue'
 import Nav from "./components/Nav.vue";
+import { RouterView } from 'vue-router';
+import HomeView from './components/HomeView.vue';
+import Header from './components/Heading.vue';
 </script>
 
 <template>
-  <header>
-
-    <div class="wrapper">
-      <HelloWorld msg="Plant Kennel" />
-    </div>
-  </header>
-
-  <Nav/>
+  <Header />
+  <Nav />
   <main>
+    <RouterView />
+    <HomeView />
     <TheWelcome />
   </main>
 </template>
@@ -22,28 +21,5 @@ import Nav from "./components/Nav.vue";
 header {
   line-height: 1.5;
   border-left: 2px solid teal;
-}
-
-.logo {
-  display: block;
-  margin: 0 auto 2rem;
-}
-
-@media (min-width: 1024px) {
-  header {
-    display: flex;
-    place-items: center;
-    padding-right: calc(var(--section-gap) / 2);
-  }
-
-  .logo {
-    margin: 0 2rem 0 0;
-  }
-
-  header .wrapper {
-    display: flex;
-    place-items: flex-start;
-    flex-wrap: wrap;
-  }
 }
 </style>
