@@ -9,9 +9,6 @@ import { RouterLink } from 'vue-router';
         <RouterLink to="/">Home</RouterLink>
         <RouterLink to="about">About</RouterLink>
         <RouterLink to="CSSColors">CSSColors</RouterLink>
-        <a href="home">Home</a>
-        <a href="about">About</a>
-        <a href="CSSColors">CSSColors</a>
     </nav>
 </template>
 
