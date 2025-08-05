@@ -20,6 +20,7 @@ coverage
 /cypress/screenshots/
 
 # Editor directories and files
+.vscode
 .vscode/*
 !.vscode/extensions.json
 .idea
@@ -34,3 +35,6 @@ coverage
 .vite/deps
 .vite/*
 .vite/deps/_metadata.json
+
+_week5_to_do.md
+/screenshots
