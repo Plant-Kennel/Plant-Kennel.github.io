@@ -1,6 +1,5 @@
 <script setup>
 import { RouterView } from 'vue-router';
-import TheWelcome from './components/TheWelcome.vue'
 import Nav from "./components/Nav.vue";
 import HomeView from './components/HomeView.vue';
 import Heading from './components/Heading.vue';
@@ -10,9 +9,8 @@ import Heading from './components/Heading.vue';
   <Heading msg="Plant Kennel"/>
   <Nav />
   <main>
-    <RouterView />
     <HomeView />
-    <TheWelcome />
+    <RouterView />
   </main>
 </template>
 
