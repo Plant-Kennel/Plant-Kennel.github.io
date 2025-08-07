@@ -1,24 +1,20 @@
-<script setup>
+<script setup lang="js">
 import { RouterView } from 'vue-router';
-import TheWelcome from './components/TheWelcome.vue'
 import Nav from "./components/Nav.vue";
-import HomeView from './components/HomeView.vue';
 import Heading from './components/Heading.vue';
 </script>
 
 <template>
   <Heading msg="Plant Kennel"/>
   <Nav />
-  <main>
+
     <RouterView />
-    <HomeView />
-    <TheWelcome />
-  </main>
+
 </template>
 
-<style scoped>
+<!-- <style scoped>
 header {
   line-height: 1.5;
   border-left: 2px solid teal;
 }
-</style>
+</style> -->
