@@ -1,5 +1,4 @@
-<script setup>
-import WelcomeItem from './WelcomeItem.vue'
+<!-- <script setup>
 import DocumentationIcon from './icons/IconDocumentation.vue'
 import ToolingIcon from './icons/IconTooling.vue'
 import EcosystemIcon from './icons/IconEcosystem.vue'
@@ -16,70 +15,51 @@ import IconDie6 from './icons/IconDie6.vue'
 </script>
 
 <template>
-  <WelcomeItem>
+    <div>
     <template #icon>
       <IconDie1 />
     </template>
-  </WelcomeItem>
-  <WelcomeItem>
     <template #icon>
       <IconDie2 />
     </template>
-  </WelcomeItem>
-  <WelcomeItem>
     <template #icon>
       <IconDie3 />
     </template>
-  </WelcomeItem>
-  <WelcomeItem>
     <template #icon>
       <IconDie4 />
     </template>
-  </WelcomeItem>
-  <WelcomeItem>
+
     <template #icon>
       <IconDie5 />
     </template>
-  </WelcomeItem>
-  <WelcomeItem>
+
     <template #icon>
       <IconDie6 />
     </template>
-  </WelcomeItem>
-  <WelcomeItem>
+
     <template #icon>
       <IconCloudUpload />
     </template>
-  </WelcomeItem>
 
-  <WelcomeItem>
     <template #icon>
       <DocumentationIcon />
     </template>
-  </WelcomeItem>
 
-  <WelcomeItem>
     <template #icon>
       <ToolingIcon />
     </template>
 
-  </WelcomeItem>
 
-  <WelcomeItem>
     <template #icon>
       <EcosystemIcon />
     </template>
-  </WelcomeItem>
 
-  <WelcomeItem>
     <template #icon>
       <CommunityIcon />
     </template>
-  </WelcomeItem>
 
-  <WelcomeItem>
     <template #icon>
       <SupportIcon />
     </template>
-  </WelcomeItem>
-</template>
+</div>
+</template> -->

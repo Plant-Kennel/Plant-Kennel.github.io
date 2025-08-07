@@ -1,5 +1,4 @@
 
 <template>
-
-    <p>About</p>
+<h2>About View</h2>
 </template>

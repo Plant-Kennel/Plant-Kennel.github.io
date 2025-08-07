@@ -1,6 +1,6 @@
 
 
-<script>
+<script setup>
 import { RouterLink } from 'vue-router';
 </script>
 
@@ -14,13 +14,13 @@ import { RouterLink } from 'vue-router';
 
 <style scoped>
     nav {
-        background-color: midnightblue;
+        background-color: cadetblue;
         list-style: none;
         display: flex;
         /* line-height: 2; */
         padding-block: .5rem;
         gap: .5rem;
-        border-left: 2px solid teal;
+        /* border-left: 2px solid teal; */
     }
 
     a {

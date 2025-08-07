@@ -166,6 +166,9 @@
     color: black;
 }
 
+.light {
+    color: midnightblue;
+}
 
 .aliceblue {
     background-color: aliceblue;
