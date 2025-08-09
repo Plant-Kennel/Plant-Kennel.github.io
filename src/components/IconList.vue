@@ -1,4 +1,4 @@
-<!-- <script setup>
+<script setup>
 import DocumentationIcon from './icons/IconDocumentation.vue'
 import ToolingIcon from './icons/IconTooling.vue'
 import EcosystemIcon from './icons/IconEcosystem.vue'
@@ -62,4 +62,4 @@ import IconDie6 from './icons/IconDie6.vue'
       <SupportIcon />
     </template>
 </div>
-</template> -->
+</template>
