@@ -6,6 +6,7 @@ import IconDie4 from '@/components/icons/IconDie4.vue';
 import IconDie5 from '@/components/icons/IconDie5.vue';
 import IconDie6 from '@/components/icons/IconDie6.vue';
 import IconItem from "@/components/IconItem.vue";
+import IconList from "@/components/IconList.vue";
 
 function getDie() {
     let diceArray = [];
@@ -39,4 +40,6 @@ const awesome = ref(true)
         <h2 v-if="awesome">Summer is here!</h2>
         <h2 v-else>Oh no 😢</h2>
     </div>
+
+    <IconList />
 </template>
