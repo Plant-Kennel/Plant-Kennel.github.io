@@ -10,7 +10,7 @@ jobs:
       uses: xRealNeon/VuePagesAction@1.0.1
       with:
         username: 'elbi3'
-        reponame: 'plant-kennel'
+        reponame: 'plant-kennel.github.io'
         token: ${{ secrets.GITHUB_TOKEN }} # Leave this line unchanged
   debug:
     runs-on: ubuntu-latest
