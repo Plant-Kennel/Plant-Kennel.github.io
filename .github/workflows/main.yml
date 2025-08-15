@@ -9,8 +9,8 @@ jobs:
     - id: Build-Vue
       uses: xRealNeon/VuePagesAction@1.0.1
       with:
-        username: 'elbi3'
-        reponame: 'Plant-Kennel.github.io'
+        username: 'Plant-Kennel'
+        reponame: 'Plant-Kennel.github.io' # nothing I put here is found in my Github PR build Vue check
         token: ${{ secrets.GITHUB_TOKEN }} # Leave this line unchanged
   debug:
     runs-on: ubuntu-latest
