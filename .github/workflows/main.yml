@@ -12,6 +12,9 @@ jobs:
         username: 'Plant-Kennel'
         reponame: 'Plant-Kennel.github.io' # nothing I put here is found in my Github PR build Vue check
         token: ${{ secrets.GITHUB_TOKEN }} # Leave this line unchanged
+      env: 
+        GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+
   debug:
     runs-on: ubuntu-latest
     name: Print repository name
