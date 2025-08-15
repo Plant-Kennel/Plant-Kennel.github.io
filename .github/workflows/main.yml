@@ -12,3 +12,8 @@ jobs:
         username: 'elbi3'
         reponame: 'plant-kennel/plant-kennel'
         token: ${{ secrets.GITHUB_TOKEN }} # Leave this line unchanged
+  debug:
+    runs-on: ubuntu-latest
+    name: Print repository name
+    steps:
+      - run: echo "Repository name ${{ github.event.repository.name }}"
