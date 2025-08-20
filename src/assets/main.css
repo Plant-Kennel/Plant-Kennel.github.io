@@ -30,3 +30,8 @@ main {
   display: grid;
   
 }
+
+.dicebox {
+  padding: 1rem;
+  border: 1px solid gray;
+}
