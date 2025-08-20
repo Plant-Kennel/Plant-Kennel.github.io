@@ -6,12 +6,12 @@
 
 <template>
     <nav>
-        <a href="/">Home</a>
+        <!-- <a href="/">Home</a>
         <a href="about">About</a>
-        <a href="CSSColors">CSSColors</a>
-        <!-- <RouterLink to="/">Home</RouterLink>
+        <a href="CSSColors">CSSColors</a> -->
+        <RouterLink to="/">Home</RouterLink>
         <RouterLink to="about">About</RouterLink>
-        <RouterLink to="CSSColors">CSSColors</RouterLink> -->
+        <RouterLink to="CSSColors">CSSColors</RouterLink>
     </nav>
 </template>
 
