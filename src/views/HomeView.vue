@@ -41,5 +41,5 @@ const awesome = ref(true)
         <h2 v-else>Oh no 😢</h2>
     </div>
 
-    <IconList />
+    <!-- <IconList /> -->
 </template>

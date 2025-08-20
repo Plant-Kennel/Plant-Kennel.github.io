@@ -9,16 +9,9 @@ import Heading from './components/Heading.vue';
 <template>
   <Heading msg="Plant Kennel"/>
   <Nav />
-<!-- <CSSColors /> -->
+
   <main>
     <RouterView />
   </main>
 
 </template>
-
-<!-- <style scoped>
-header {
-  line-height: 1.5;
-  border-left: 2px solid teal;
-}
-</style> -->
